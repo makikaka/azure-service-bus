@@ -1,0 +1,11 @@
+C:\Users\mlade\source\repos\ServiceBusDemo\SBShared\bin\Debug\net8.0\SBShared.deps.json
+C:\Users\mlade\source\repos\ServiceBusDemo\SBShared\bin\Debug\net8.0\SBShared.dll
+C:\Users\mlade\source\repos\ServiceBusDemo\SBShared\bin\Debug\net8.0\SBShared.pdb
+C:\Users\mlade\source\repos\ServiceBusDemo\SBShared\obj\Debug\net8.0\SBShared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mlade\source\repos\ServiceBusDemo\SBShared\obj\Debug\net8.0\SBShared.AssemblyInfoInputs.cache
+C:\Users\mlade\source\repos\ServiceBusDemo\SBShared\obj\Debug\net8.0\SBShared.AssemblyInfo.cs
+C:\Users\mlade\source\repos\ServiceBusDemo\SBShared\obj\Debug\net8.0\SBShared.csproj.CoreCompileInputs.cache
+C:\Users\mlade\source\repos\ServiceBusDemo\SBShared\obj\Debug\net8.0\SBShared.dll
+C:\Users\mlade\source\repos\ServiceBusDemo\SBShared\obj\Debug\net8.0\refint\SBShared.dll
+C:\Users\mlade\source\repos\ServiceBusDemo\SBShared\obj\Debug\net8.0\SBShared.pdb
+C:\Users\mlade\source\repos\ServiceBusDemo\SBShared\obj\Debug\net8.0\ref\SBShared.dll

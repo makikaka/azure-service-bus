@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D9AE1EF-663A-4C42-80A5-FEFBE191BD26}|SBSender\\SBSender.csproj|c:\\users\\mlade\\source\\repos\\servicebusdemo\\sbsender\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9D9AE1EF-663A-4C42-80A5-FEFBE191BD26}|SBSender\\SBSender.csproj|solutionrelative:sbsender\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{451878AE-8819-4CF0-A386-4D4319114631}|SBReciever\\SBReciever.csproj|c:\\users\\mlade\\source\\repos\\servicebusdemo\\sbreciever\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{451878AE-8819-4CF0-A386-4D4319114631}|SBReciever\\SBReciever.csproj|solutionrelative:sbreciever\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{451878AE-8819-4CF0-A386-4D4319114631}|SBReciever\\SBReciever.csproj|c:\\users\\mlade\\source\\repos\\servicebusdemo\\sbreciever\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{451878AE-8819-4CF0-A386-4D4319114631}|SBReciever\\SBReciever.csproj|solutionrelative:sbreciever\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D9AE1EF-663A-4C42-80A5-FEFBE191BD26}|SBSender\\SBSender.csproj|c:\\users\\mlade\\source\\repos\\servicebusdemo\\sbsender\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D9AE1EF-663A-4C42-80A5-FEFBE191BD26}|SBSender\\SBSender.csproj|solutionrelative:sbsender\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D9AE1EF-663A-4C42-80A5-FEFBE191BD26}|SBSender\\SBSender.csproj|c:\\users\\mlade\\source\\repos\\servicebusdemo\\sbsender\\services\\queservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D9AE1EF-663A-4C42-80A5-FEFBE191BD26}|SBSender\\SBSender.csproj|solutionrelative:sbsender\\services\\queservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D9AE1EF-663A-4C42-80A5-FEFBE191BD26}|SBSender\\SBSender.csproj|c:\\users\\mlade\\source\\repos\\servicebusdemo\\sbsender\\services\\iqueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D9AE1EF-663A-4C42-80A5-FEFBE191BD26}|SBSender\\SBSender.csproj|solutionrelative:sbsender\\services\\iqueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D9AE1EF-663A-4C42-80A5-FEFBE191BD26}|SBSender\\SBSender.csproj|c:\\users\\mlade\\source\\repos\\servicebusdemo\\sbsender\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D9AE1EF-663A-4C42-80A5-FEFBE191BD26}|SBSender\\SBSender.csproj|solutionrelative:sbsender\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D9AE1EF-663A-4C42-80A5-FEFBE191BD26}|SBSender\\SBSender.csproj|c:\\users\\mlade\\source\\repos\\servicebusdemo\\sbsender\\sbsender.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9D9AE1EF-663A-4C42-80A5-FEFBE191BD26}|SBSender\\SBSender.csproj|solutionrelative:sbsender\\sbsender.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{451878AE-8819-4CF0-A386-4D4319114631}|SBReciever\\SBReciever.csproj|c:\\users\\mlade\\source\\repos\\servicebusdemo\\sbreciever\\sbreciever.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{451878AE-8819-4CF0-A386-4D4319114631}|SBReciever\\SBReciever.csproj|solutionrelative:sbreciever\\sbreciever.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81762A0A-5687-4EAE-8F8C-8132E05FE381}|SBSharedLib\\SBSharedLib.csproj|c:\\users\\mlade\\source\\repos\\servicebusdemo\\sbsharedlib\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81762A0A-5687-4EAE-8F8C-8132E05FE381}|SBSharedLib\\SBSharedLib.csproj|solutionrelative:sbsharedlib\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D9AE1EF-663A-4C42-80A5-FEFBE191BD26}|SBSender\\SBSender.csproj|c:\\users\\mlade\\source\\repos\\servicebusdemo\\sbsender\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D9AE1EF-663A-4C42-80A5-FEFBE191BD26}|SBSender\\SBSender.csproj|solutionrelative:sbsender\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D9AE1EF-663A-4C42-80A5-FEFBE191BD26}|SBSender\\SBSender.csproj|c:\\users\\mlade\\source\\repos\\servicebusdemo\\sbsender\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D9AE1EF-663A-4C42-80A5-FEFBE191BD26}|SBSender\\SBSender.csproj|solutionrelative:sbsender\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IQueService.cs",
+              "DocumentMoniker": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\Services\\IQueService.cs",
+              "RelativeDocumentMoniker": "SBSender\\Services\\IQueService.cs",
+              "ToolTip": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\Services\\IQueService.cs",
+              "RelativeToolTip": "SBSender\\Services\\IQueService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:38:21.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBReciever\\appsettings.json",
+              "RelativeDocumentMoniker": "SBReciever\\appsettings.json",
+              "ToolTip": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBReciever\\appsettings.json",
+              "RelativeToolTip": "SBReciever\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-01T14:24:03.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBReciever\\Program.cs",
+              "RelativeDocumentMoniker": "SBReciever\\Program.cs",
+              "ToolTip": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBReciever\\Program.cs",
+              "RelativeToolTip": "SBReciever\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T16:00:51.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "SBSender\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\Components\\_Imports.razor",
+              "RelativeToolTip": "SBSender\\Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T15:53:31.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "SBSender\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "SBSender\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T15:29:01.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\Program.cs",
+              "RelativeDocumentMoniker": "SBSender\\Program.cs",
+              "ToolTip": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\Program.cs",
+              "RelativeToolTip": "SBSender\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T14:48:22.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\appsettings.json",
+              "RelativeDocumentMoniker": "SBSender\\appsettings.json",
+              "ToolTip": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\appsettings.json",
+              "RelativeToolTip": "SBSender\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-29T14:41:38.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QueService.cs",
+              "DocumentMoniker": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\Services\\QueService.cs",
+              "RelativeDocumentMoniker": "SBSender\\Services\\QueService.cs",
+              "ToolTip": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\Services\\QueService.cs",
+              "RelativeToolTip": "SBSender\\Services\\QueService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T14:34:04.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SBSender.csproj",
+              "DocumentMoniker": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\SBSender.csproj",
+              "RelativeDocumentMoniker": "SBSender\\SBSender.csproj",
+              "ToolTip": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\SBSender.csproj",
+              "RelativeToolTip": "SBSender\\SBSender.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-29T15:54:19.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSharedLib\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "SBSharedLib\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSharedLib\\Models\\Person.cs",
+              "RelativeToolTip": "SBSharedLib\\Models\\Person.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T16:04:10.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\Components\\App.razor",
+              "RelativeDocumentMoniker": "SBSender\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\Components\\App.razor",
+              "RelativeToolTip": "SBSender\\Components\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T16:54:46.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SBReciever.csproj",
+              "DocumentMoniker": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBReciever\\SBReciever.csproj",
+              "RelativeDocumentMoniker": "SBReciever\\SBReciever.csproj",
+              "ToolTip": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBReciever\\SBReciever.csproj",
+              "RelativeToolTip": "SBReciever\\SBReciever.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-29T14:26:33.619Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

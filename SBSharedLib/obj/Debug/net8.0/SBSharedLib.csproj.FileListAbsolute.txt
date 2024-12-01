@@ -1,0 +1,11 @@
+C:\Users\mlade\source\repos\ServiceBusDemo\SBSharedLib\bin\Debug\net8.0\SBSharedLib.deps.json
+C:\Users\mlade\source\repos\ServiceBusDemo\SBSharedLib\bin\Debug\net8.0\SBSharedLib.dll
+C:\Users\mlade\source\repos\ServiceBusDemo\SBSharedLib\bin\Debug\net8.0\SBSharedLib.pdb
+C:\Users\mlade\source\repos\ServiceBusDemo\SBSharedLib\obj\Debug\net8.0\SBSharedLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mlade\source\repos\ServiceBusDemo\SBSharedLib\obj\Debug\net8.0\SBSharedLib.AssemblyInfoInputs.cache
+C:\Users\mlade\source\repos\ServiceBusDemo\SBSharedLib\obj\Debug\net8.0\SBSharedLib.AssemblyInfo.cs
+C:\Users\mlade\source\repos\ServiceBusDemo\SBSharedLib\obj\Debug\net8.0\SBSharedLib.csproj.CoreCompileInputs.cache
+C:\Users\mlade\source\repos\ServiceBusDemo\SBSharedLib\obj\Debug\net8.0\SBSharedLib.dll
+C:\Users\mlade\source\repos\ServiceBusDemo\SBSharedLib\obj\Debug\net8.0\refint\SBSharedLib.dll
+C:\Users\mlade\source\repos\ServiceBusDemo\SBSharedLib\obj\Debug\net8.0\SBSharedLib.pdb
+C:\Users\mlade\source\repos\ServiceBusDemo\SBSharedLib\obj\Debug\net8.0\ref\SBSharedLib.dll
