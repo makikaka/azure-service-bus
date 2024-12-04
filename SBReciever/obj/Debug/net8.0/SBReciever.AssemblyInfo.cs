@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SBReciever")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f8d9aa641ac8f538fb1290ebfc81e20a281785f")]
 [assembly: System.Reflection.AssemblyProductAttribute("SBReciever")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SBReciever")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,58 @@
+# .NET Core build folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+.vs/
+
+# User secrets
+**/secrets.json
+appsettings.Development.json
+appsettings.*.json
+!appsettings.json
+
+# IDE
+.vscode/
+.idea/
+*.sln.iml
+
+# Rider
+.idea/
+*.sln.iml
+.idea/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Azure Service Bus settings
+ServiceBusSettings.json
+
+# Others
+*.swp
+*.log
+.DS_Store
+Thumbs.db
