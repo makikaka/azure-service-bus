@@ -50,6 +50,21 @@ cd SBSender
 dotnet user-secrets init --project "SBSender.csproj"
 dotnet user-secrets set "ConnectionStrings:AzureServiceBus" "your_connection_string"
 ```
+In Azure, you can find the Service Bus connection string (which includes the key) by following these steps:
+
+Go to the Azure Portal (portal.azure.com)
+Navigate to your Service Bus Namespace
+In the left sidebar, click on "Shared access policies" under "Settings"
+Click on "RootManageSharedAccessKey" (or create a new policy with appropriate permissions)
+You'll see two connection strings:
+
+Primary Connection String
+Secondary Connection String
+
+
+
+You can copy either one - they both work the same way. The connection string will look something like this:
+Endpoint=sb://your-namespace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=yourkey123...
 
 ---
 
