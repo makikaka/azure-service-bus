@@ -1,4 +1,4 @@
-﻿namespace SBSenderTopic.Services
+﻿namespace SBTopicPublisher.Services
 {
     public interface ITopicService
     {

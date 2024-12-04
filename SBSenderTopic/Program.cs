@@ -1,5 +1,5 @@
-using SBSenderTopic.Components;
-using SBSenderTopic.Services;
+using SBTopicPublisher.Components;
+using SBTopicPublisher.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 if (builder.Environment.IsDevelopment())

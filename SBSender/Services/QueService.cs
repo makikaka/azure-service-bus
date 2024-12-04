@@ -2,7 +2,7 @@
 using System.Text.Json;
 
 
-namespace SBSender.Services
+namespace SBQuePublisher.Services
 {
     public class QueService : IQueService
     {

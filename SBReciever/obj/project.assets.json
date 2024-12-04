@@ -1143,9 +1143,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBReciever\\SBReciever.csproj",
-      "projectName": "SBReciever",
-      "projectPath": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBReciever\\SBReciever.csproj",
+      "projectUniqueName": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBReciever\\SBQueSubscriber.csproj",
+      "projectName": "SBQueSubscriber",
+      "projectPath": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBReciever\\SBQueSubscriber.csproj",
       "packagesPath": "C:\\Users\\mlade\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBReciever\\obj\\",
       "projectStyle": "PackageReference",

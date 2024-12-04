@@ -1,6 +1,6 @@
 ﻿using Azure.Messaging.ServiceBus;
 
-namespace SBSenderTopic.Services
+namespace SBTopicPublisher.Services
 {
     public class TopicService : ITopicService
     {

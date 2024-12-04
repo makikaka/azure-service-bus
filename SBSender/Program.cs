@@ -1,5 +1,5 @@
-using SBSender.Components;
-using SBSender.Services;
+using SBQuePublisher.Components;
+using SBQuePublisher.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 if (builder.Environment.IsDevelopment())

@@ -1141,9 +1141,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\SBSender.csproj",
-      "projectName": "SBSender",
-      "projectPath": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\SBSender.csproj",
+      "projectUniqueName": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\SBQuePublisher.csproj",
+      "projectName": "SBQuePublisher",
+      "projectPath": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\SBQuePublisher.csproj",
       "packagesPath": "C:\\Users\\mlade\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\obj\\",
       "projectStyle": "PackageReference",

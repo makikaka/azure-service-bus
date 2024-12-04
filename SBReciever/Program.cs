@@ -4,7 +4,7 @@ using System.Text.Json;
 using SBSharedLib.Models;
 using Microsoft.Extensions.Configuration;
 
-namespace SBReceiver
+namespace SBQueSubscriber
 {
     class Program
     {

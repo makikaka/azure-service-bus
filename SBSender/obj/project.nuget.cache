@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N+jeFPeN/20=",
+  "dgSpecHash": "BaKFmrE/xqE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\SBSender.csproj",
+  "projectFilePath": "C:\\Users\\mlade\\source\\repos\\ServiceBusDemo\\SBSender\\SBQuePublisher.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mlade\\.nuget\\packages\\azure.core\\1.44.0\\azure.core.1.44.0.nupkg.sha512",
     "C:\\Users\\mlade\\.nuget\\packages\\azure.core.amqp\\1.3.1\\azure.core.amqp.1.3.1.nupkg.sha512",

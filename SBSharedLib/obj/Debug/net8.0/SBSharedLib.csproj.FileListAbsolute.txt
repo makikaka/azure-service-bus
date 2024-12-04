@@ -5,8 +5,8 @@ C:\Users\mlade\source\repos\ServiceBusDemo\SBSharedLib\obj\Debug\net8.0\SBShared
 C:\Users\mlade\source\repos\ServiceBusDemo\SBSharedLib\obj\Debug\net8.0\SBSharedLib.AssemblyInfoInputs.cache
 C:\Users\mlade\source\repos\ServiceBusDemo\SBSharedLib\obj\Debug\net8.0\SBSharedLib.AssemblyInfo.cs
 C:\Users\mlade\source\repos\ServiceBusDemo\SBSharedLib\obj\Debug\net8.0\SBSharedLib.csproj.CoreCompileInputs.cache
+C:\Users\mlade\source\repos\ServiceBusDemo\SBSharedLib\obj\Debug\net8.0\SBSharedLib.sourcelink.json
 C:\Users\mlade\source\repos\ServiceBusDemo\SBSharedLib\obj\Debug\net8.0\SBSharedLib.dll
 C:\Users\mlade\source\repos\ServiceBusDemo\SBSharedLib\obj\Debug\net8.0\refint\SBSharedLib.dll
 C:\Users\mlade\source\repos\ServiceBusDemo\SBSharedLib\obj\Debug\net8.0\SBSharedLib.pdb
 C:\Users\mlade\source\repos\ServiceBusDemo\SBSharedLib\obj\Debug\net8.0\ref\SBSharedLib.dll
-C:\Users\mlade\source\repos\ServiceBusDemo\SBSharedLib\obj\Debug\net8.0\SBSharedLib.sourcelink.json

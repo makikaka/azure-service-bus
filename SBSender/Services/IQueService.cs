@@ -1,5 +1,5 @@
 ﻿
-namespace SBSender.Services
+namespace SBQuePublisher.Services
 {
     public interface IQueService
     {
