@@ -7,15 +7,17 @@ namespace SBTopicSubscriber
 {
     class Program
     {
+        private static readonly Dictionary<string, string> AvailableSubscriptions = new()
+        {
+            { "1", "maki" },
+            { "2", "paun" }
+        };
+
         static async Task Main(string[] args)
         {
-            // Check if subscription name was provided as command line argument
-            if (args.Length == 0)
-            {
-                Console.WriteLine("Please provide a subscription name as a command line argument.");
-                return;
-            }
-            string subscriptionName = args[0];
+            // Get subscription and filter choices
+            string subscriptionName = GetSubscriptionChoice();
+            string? messageTypeFilter = GetMessageTypeFilter();
 
             IConfiguration configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
@@ -38,15 +40,32 @@ namespace SBTopicSubscriber
             await using ServiceBusClient client = new ServiceBusClient(connectionString);
             ServiceBusReceiver receiver = client.CreateReceiver(topicName, subscriptionName);
 
-            Console.WriteLine($"Starting to receive messages for subscription {subscriptionName}... Press Ctrl+C to exit");
+            string filterDisplay = messageTypeFilter != null ? $" (Filtering for {messageTypeFilter} messages)" : " (No message type filter)";
+            Console.WriteLine($"Starting to receive messages for subscription {subscriptionName}{filterDisplay}...");
+            Console.WriteLine("Press Ctrl+C to exit");
 
             try
             {
                 while (!cts.Token.IsCancellationRequested)
                 {
-                    ServiceBusReceivedMessage message = await receiver.ReceiveMessageAsync(cancellationToken: cts.Token);
+                    ServiceBusReceivedMessage message = await receiver.ReceiveMessageAsync(
+                        TimeSpan.FromSeconds(30),
+                        cancellationToken: cts.Token);
+
                     if (message != null)
                     {
+                        // Check if message matches our filter
+                        string receivedMessageType = message.ApplicationProperties.TryGetValue("MessageType", out var type)
+                            ? type?.ToString() ?? "Unspecified"
+                            : "Unspecified";
+
+                        // Skip message if it doesn't match our filter
+                        if (messageTypeFilter != null && receivedMessageType != messageTypeFilter)
+                        {
+                            await receiver.CompleteMessageAsync(message);
+                            continue;
+                        }
+
                         try
                         {
                             string jsonBody = message.Body.ToString();
@@ -54,14 +73,9 @@ namespace SBTopicSubscriber
 
                             if (person != null)
                             {
-                                // Get the message type from application properties
-                                string messageType = "Unknown";
-                                if (message.ApplicationProperties.ContainsKey("MessageType"))
-                                {
-                                    messageType = message.ApplicationProperties["MessageType"].ToString() ?? "Unknown";
-                                }
-
-                                Console.WriteLine($"[{subscriptionName}] Received {messageType} person - Name: {person.FirstName} {person.LastName}");
+                                Console.WriteLine($"[{subscriptionName}] Received message:");
+                                Console.WriteLine($"Message Type: {receivedMessageType}");
+                                Console.WriteLine($"Person: {person.FirstName} {person.LastName}");
                                 Console.WriteLine($"Message ID: {message.MessageId}");
                                 Console.WriteLine($"Enqueued Time: {message.EnqueuedTime}");
                                 Console.WriteLine("------------------------");
@@ -77,30 +91,12 @@ namespace SBTopicSubscriber
                         catch (JsonException jsonEx)
                         {
                             Console.WriteLine($"Error deserializing message {message.MessageId}: {jsonEx.Message}");
-                            await receiver.DeadLetterMessageAsync(
-                                message,
-                                "DeserializationError",
-                                $"Failed to deserialize to Person: {jsonEx.Message}"
-                            );
+                            await receiver.DeadLetterMessageAsync(message, "DeserializationError", jsonEx.Message);
                         }
                         catch (Exception messageException)
                         {
                             Console.WriteLine($"Error processing message {message.MessageId}: {messageException.Message}");
-                            try
-                            {
-                                await receiver.DeadLetterMessageAsync(
-                                    message,
-                                    "ProcessingError",
-                                    $"Error: {messageException.Message}"
-                                );
-                                Console.WriteLine($"Message {message.MessageId} moved to dead letter queue");
-                            }
-                            catch (Exception deadLetterException)
-                            {
-                                Console.WriteLine($"Error moving message to dead letter queue: {deadLetterException.Message}");
-                                await receiver.AbandonMessageAsync(message);
-                                Console.WriteLine($"Message {message.MessageId} abandoned and returned to queue");
-                            }
+                            await receiver.DeadLetterMessageAsync(message, "ProcessingError", messageException.Message);
                         }
                     }
                 }
@@ -120,6 +116,44 @@ namespace SBTopicSubscriber
             }
         }
 
+        private static string GetSubscriptionChoice()
+        {
+            while (true)
+            {
+                Console.WriteLine("\nChoose a subscription:");
+                Console.WriteLine("1: Maki Subscription");
+                Console.WriteLine("2: Paun Subscription");
+
+                string? choice = Console.ReadLine();
+                if (AvailableSubscriptions.TryGetValue(choice ?? "", out string? subscriptionName))
+                {
+                    return subscriptionName;
+                }
+
+                Console.WriteLine("Invalid choice. Please try again.");
+            }
+        }
+
+        private static string? GetMessageTypeFilter()
+        {
+            while (true)
+            {
+                Console.WriteLine("\nChoose message type to filter (or press Enter for no filter):");
+                Console.WriteLine("1: VIP messages only");
+                Console.WriteLine("2: Regular messages only");
+                Console.WriteLine("Press Enter: Receive all messages");
+
+                string? choice = Console.ReadLine();
+                return choice switch
+                {
+                    "1" => "VIP",
+                    "2" => "Regular",
+                    "" => null,
+                    _ => GetMessageTypeFilter() // Recurse if invalid input
+                };
+            }
+        }
+
         private static async Task ProcessPersonAsync(Person person)
         {
             await Task.Run(() =>
@@ -128,7 +162,6 @@ namespace SBTopicSubscriber
                 {
                     throw new Exception("Person has missing required fields");
                 }
-                // Add any additional processing logic here
             });
         }
     }
