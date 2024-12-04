@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>71a538be-3b72-427b-b6a6-710eb5a1276e</UserSecretsId>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Azure.Messaging.ServiceBus" Version="7.18.2" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="9.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\SBSharedLib\SBSharedLib.csproj" />
+	</ItemGroup>
+
+</Project>
