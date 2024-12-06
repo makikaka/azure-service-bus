@@ -27,8 +27,8 @@ Ensure the following tools and resources are available before setting up the pro
 - Azure Service Bus namespace with:
   - Queue: "person-que"
   - Topic: "person-topic" with subscriptions:
-    - "maki" (for VIP messages)
-    - "paun" (for Regular messages)
+    - "s1" 
+    - "s2" 
 - [Visual Studio 2022](https://visualstudio.microsoft.com/) or [VS Code](https://code.visualstudio.com/)
 - Azure subscription
 

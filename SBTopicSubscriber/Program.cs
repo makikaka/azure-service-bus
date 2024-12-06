@@ -9,8 +9,8 @@ namespace SBTopicSubscriber
     {
         private static readonly Dictionary<string, string> AvailableSubscriptions = new()
         {
-            { "1", "maki" },
-            { "2", "paun" }
+            { "1", "s1" },
+            { "2", "s2" }
         };
 
         static async Task Main(string[] args)
